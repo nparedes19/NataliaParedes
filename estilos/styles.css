@@ -316,7 +316,7 @@ footer{
 }
 /*mobile*/
 
-@media screen and (max-width:400px){
+@media screen and (max-width:320px){
     
     /*header*/
 
@@ -453,7 +453,7 @@ footer{
         margin-left: 5%;
         font-size: 36px;
         display: block;
-        margin-top: 2%;
+        margin-top:0;
     }
 
     .cuartagrilla{
@@ -501,13 +501,7 @@ footer{
         justify-content: center;
     }
 
-    .nueve{
 
-    }
-
-    .nueve span{
-    
-    }
 
     .ultima{
 
@@ -553,10 +547,11 @@ footer{
 
     footer div{
         font-size: 14px;
-        display:flex;
-        justify-self: center;
         margin-top: 36px;
-        margin-left: 18%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        
     }
     footer{
         height: 121px;
@@ -569,7 +564,8 @@ footer{
         justify-content: space-around;
         width: 200px;
         margin-top: 36px;
-        margin-left: 17%;
+        margin-right: auto;
+        margin-left: auto;
     }
     /*menu responsive*/
     #barras {
