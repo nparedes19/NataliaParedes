@@ -404,8 +404,12 @@ footer{
     }
     .segundagrilla h2{
         padding-left: 5%;
-        font-size: 36px;
         margin-top: 50%;
+    }
+
+    #nosotros{
+        font-size: 36px;
+        width: 50%;
     }
 
     .parrafo1{
@@ -433,7 +437,7 @@ footer{
     #entrevistas{
         font-size: 36px;
         color: #060a24;
-        margin-top: 0px;
+        margin-top: -15%;
         margin-left: 5%;
         margin-bottom: 36px;
         
@@ -453,7 +457,7 @@ footer{
         margin-left: 5%;
         font-size: 36px;
         display: block;
-        margin-top:0;
+        margin-top:-8%;
     }
 
     .cuartagrilla{
