@@ -120,14 +120,14 @@ main{
     background: rgb(0,0,163);
     background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-    z-index: -1;
-    position: relative;
+    position: absolute;
 }
 
 
 h2{
     margin-left: 200px;
     padding-top: 230px; 
+    position: relative;
 }
 
 
@@ -144,6 +144,7 @@ h2{
     grid-template-columns: 50% 50%;
     grid-template-rows: 232px 232px;
     grid-row-gap: 100px;
+    position: relative;
      
 }
 
@@ -159,8 +160,8 @@ iframe{
 .segundagrilla img{
     height: 660px;
     width: 457.6px;
-    z-index: 1;
-    margin-top: -120px;
+    position: relative;
+    margin-top: 1000px;
     
 }
 .segundagrilla{
@@ -174,7 +175,7 @@ iframe{
 
 .texto{
     
-   margin-top: -160px; 
+   margin-top: 1000px;
     
 }
 
@@ -201,7 +202,7 @@ iframe{
 #entrevistas{
     font-size: 48px;
     color: #060a24;
-    margin-top: -80px;
+    margin-top: 1000px;
     margin-left: 200px;
     margin-bottom: 36px;
     
@@ -397,19 +398,23 @@ footer{
     }
     
     .segundagrilla img{
-        margin-top: 0px;
-        padding-top: 70px;
+        padding-top: 1500px;
         height: auto;
         width: 100%;
     }
     .segundagrilla h2{
         padding-left: 5%;
-        margin-top: 50%;
+        
+    }
+
+    .texto{
+        margin-top: 550px;
     }
 
     #nosotros{
         font-size: 36px;
         width: 50%;
+        padding-top: -1000px;
     }
 
     .parrafo1{
@@ -437,7 +442,7 @@ footer{
     #entrevistas{
         font-size: 36px;
         color: #060a24;
-        margin-top: -15%;
+        margin-top: -500px;
         margin-left: 5%;
         margin-bottom: 36px;
         
