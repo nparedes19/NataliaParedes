@@ -354,6 +354,12 @@ footer{
         font-size: 16px;
         margin-bottom: 7.92%;
     }
+
+    .boton:hover {
+        background: rgb(0,248,176);
+        background: linear-gradient(90deg, rgba(0,248,176,1) 4%, rgba(0,0,254,1) 42%);
+        color: white;
+    }
    
     /*main*/
     
@@ -386,6 +392,7 @@ footer{
          background: rgb(0,0,163);
          background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
          clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+         position: absolute;
      }
 
      .segundagrilla{
@@ -393,12 +400,13 @@ footer{
         grid-template-columns: 100%;
         grid-template-rows: 47.70% 31.80%;
         margin-left: 0px;
+        padding-top: 1500px;
+    
         
     
     }
     
     .segundagrilla img{
-        padding-top: 1500px;
         height: auto;
         width: 100%;
     }
@@ -414,7 +422,7 @@ footer{
     #nosotros{
         font-size: 36px;
         width: 50%;
-        padding-top: -1000px;
+        margin-top: -700px;
     }
 
     .parrafo1{
@@ -442,7 +450,7 @@ footer{
     #entrevistas{
         font-size: 36px;
         color: #060a24;
-        margin-top: -500px;
+        margin-top: -330px;
         margin-left: 5%;
         margin-bottom: 36px;
         
@@ -575,6 +583,10 @@ footer{
         margin-top: 36px;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    #icon{
+        color: #060A24;
     }
     /*menu responsive*/
     #barras {
