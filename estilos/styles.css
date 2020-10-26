@@ -585,9 +585,23 @@ footer{
         margin-left: auto;
     }
 
-    #icon{
+    #icon1{
         color: #060A24;
     }
+    #icon2{
+        color: #060A24;
+    }
+    #icon3{
+        color: #060A24;
+    }
+    #icon4{
+        color: #060A24;
+    }
+    #icon5{
+        color: #060A24;
+    }
+    
+
     /*menu responsive*/
     #barras {
         display: block;
